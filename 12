@@ -1,0 +1,4 @@
+NS_ASSERT failed, cond="delay.IsPositive()", msg="DefaultSimulatorImpl::Schedule(): Negative delay", +0.000000000s -1 file=/home/ns3-user/ns-allinone-3.43/ns-3.43/src/core/model/default-simulator-impl.cc, line=218
+NS_FATAL, terminating
+terminate called without an active exception
+Command 'build/examples/wireless/ns3.43-wifi-rate-adaptation-distance-default --standard=802.11g  --staManager=ns3::MinstrelWifiManager  --apManager=ns3::MinstrelWifiManager  --STA1_x=-100  steps=100  --stepsSize=1  --stepsTime=1  --outputFileName=wifi-throughput-distance' died with <Signals.SIGABRT: 6>.
